@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeMania- Ek Gaming Katha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="body">
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">High Score: 0</div>
+        <div class="speedy">
+        Speed: <input name="speedInputName" type="range" min="1" max="20" step="1" value="2" id="speed" oninput="speedOutput.value=speed.value">
+        <output name="speedOutputName" id="speedOutput"> 2</output>
+        </div>
+        <div class="buttons">
+            <div id="button1" onclick="pauseMotion()"><span>Pause</span><i id="playpause" class="fa-regular fa-circle-play"></i></div>
+            <div id="button2" type="button"><i class="fa-solid fa-volume-high"></i></div>
+        </div>
+        <div id="board">
+            <div class="typetext">
+                Welcome to SnakeMania
+            </div>
+        </div>
+        <div class="bgimage">
+            <button id="start" onclick="window.requestAnimationFrame(main)">Start Game</button>
+            <button id="quit" onclick="quitgame()">Quit Game</button>
+        </div> 
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/4261e73e7b.js" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</html>

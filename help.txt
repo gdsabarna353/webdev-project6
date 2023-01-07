@@ -1,0 +1,13 @@
+between vh and vw, the lesser value is vmin and higher value is vmax
+
+a new unit of length called fr, which is short for “fraction”. MDN defines the fr unit as a unit which represents a fraction of the available space in the grid container
+
+https://stackoverflow.com/questions/38709923/why-is-requestanimationframe-better-than-setinterval-or-settimeout
+
+ctime means current time
+
+lastPaintTime means the time to paint the screen
+
+e means element
+
+inputDir is actually means the snake velocity here
