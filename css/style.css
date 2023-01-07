@@ -100,6 +100,25 @@
     padding: 5px;
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
+.arrowKeys{
+    /* display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    top: 239px;
+    position: absolute;
+    right: 172px;
+    cursor: pointer;     */
+
+    border: 2px solid black;
+    width: 20vw;
+    height: 5vh;
+    background: linear-gradient(rgb(93, 93, 236), rgb(233, 74, 233));
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 19px;
+}
 span{
     margin-right: 5px;
 }
@@ -132,7 +151,7 @@ span{
 #start, #quit{
     border: 2px solid black;
     width: 20vw;
-    height: 7vh;
+    height: 5vh;
     background: linear-gradient(rgb(93, 93, 236), rgb(233, 74, 233));
     border-radius: 25px;
     cursor: pointer;
@@ -144,7 +163,7 @@ span{
     margin-top: 19px;
     background: linear-gradient(rgb(218, 58, 191), rgb(44, 189, 194));
 }
-#start:hover, #quit:hover{
+#start:hover, #quit:hover, .arrowKeys:hover{
     /* background: linear-gradient(rgb(176, 23, 236), rgb(13, 74, 243)); */
     transition: all 0.8s;
     width: 21vw;
