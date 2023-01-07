@@ -175,3 +175,58 @@ window.addEventListener('keydown', e=>{
 
 
 // (foodSound.paused || moveSound.paused || gameOverSound.paused) && 
+
+
+// window.addEventListener('click', ()=>{
+//     inputDir = {x:0, y:1};  //start the game
+//     moveSound.play();
+//     if(arrowUp()){
+//         console.log("ArrowUp");
+//         inputDir.x = 0;
+//         inputDir.y = -1;
+//     }
+//     else if(arrowDown()){
+//         console.log("ArrowDown");
+//         inputDir.x = 0;
+//         inputDir.y = 1;
+//     }
+//     else if(arrowLeft()){
+//         console.log("ArrowLeft");
+//         inputDir.x = -1;
+//         inputDir.y = 0;
+//     }
+//     else if(arrowRight()){
+//         console.log("ArrowRight");
+//         inputDir.x = 1;
+//         inputDir.y = 0;
+//     }
+// });
+
+function arrowUp(){
+    inputDir = {x:0, y:1};  //start the game
+    moveSound.play();
+    console.log("ArrowUp");
+    inputDir.x = 0;
+    inputDir.y = -1;
+}
+function arrowDown(){
+    inputDir = {x:0, y:1};  //start the game
+    moveSound.play();
+    console.log("ArrowDown");
+    inputDir.x = 0;
+    inputDir.y = 1;
+}
+function arrowLeft(){
+    inputDir = {x:0, y:1};  //start the game
+    moveSound.play();
+    console.log("ArrowLeft");
+    inputDir.x = -1;
+    inputDir.y = 0;
+}
+function arrowRight(){
+    inputDir = {x:0, y:1};  //start the game
+    moveSound.play();
+    console.log("ArrowRight");
+    inputDir.x = 1;
+    inputDir.y = 0;
+}
